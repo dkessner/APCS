@@ -1,29 +1,28 @@
-# Schedule 2023-24
-
-__Note: this is last year's schedule__
+# Schedule 2024-25
 
 ## Semester 1
 
-15 weeks, 33 class meetings
+16 weeks, 33 class meetings
 
 |Week|Date  |#|Topics|
 |----|------|-|------|
-|1   |Aug 28|2|Introductions, Installation; Command line, dev environment setup, Summer projects|
-|2   |Sep 4 |2|Unit 0 (Command line, numeric conversion)|
-|3   |Sep 11|2|Unit 1 (Java Basics)|
-|4   |Sep 18|3|Unit 2 (Functions and Conditionals)|
-|5   |Sep 25|2|Unit 3 (String, Math, Random)|
-|6   |Oct 2 |2|Unit 4 (Loops / Algorithms)|
-|7   |Oct 9 |2|Unit 5 (Classes & Objects)|
-|8   |Oct 16|2|Unit 6 (Processing libraries); Project planning|
-|9   |Oct 23|2|catch up|
-|10  |Oct 30|2|Unit 7 (Arrays); Project work|
-|11  |Nov 6 |2|Unit 8 (ArrayList); Project work|
-|12  |Nov 13|3|Unit 9 (Array Algorithms); Project work|
-|--  |Nov 20|-|_Thanksgiving Break_|
-|13  |Nov 27|2|Project work|
-|14  |Dec 4 |3|Project work|
-|15  |Dec 11|2|Project work|
+|1   |Aug 26|2|Introductions, Installation; Command line, dev environment setup, Summer projects|
+|2   |Sep 3 |2|Unit 0 (Command line, numeric conversion)|
+|3   |Sep 9|2|Unit 1 (Java Basics)|
+|4   |Sep 16|3|Unit 2 (Functions and Conditionals)|
+|5   |Sep 23|2|Unit 3 (String, Math, Random)|
+|6   |Sep 30|1|Unit 4 (Loops / Algorithms)|
+|7   |Oct 7 |2|Unit 5 (Classes & Objects)|
+|8   |Oct 14|2|Unit 6 (Processing libraries); Project planning|
+|9   |Oct 21|3|catch up|
+|10  |Oct 28|2|Unit 7 (Arrays); Project work|
+|11  |Nov 4 |2|Unit 8 (ArrayList); Project work|
+|12  |Nov 11|2|Unit 9 (Array Algorithms); Project work|
+|13  |Nov 18|2|Project work|
+|--  |Nov 25|-|_Thanksgiving Break_|
+|14  |Dec 2|3|Project work|
+|15  |Dec 9|2|Project work|
+|16  |Dec 16|2|Project work|
 
 ## Semester 2 
 
