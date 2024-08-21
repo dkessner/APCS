@@ -4,17 +4,17 @@
 format: jb-book
 root: welcome
 chapters:
+    - file: doc/schedule
     - file: doc/intro
       sections:
       - file: doc/summer_assignment
-      - file: doc/class_info
+      - file: doc/syllabus
+      - file: doc/course_expectations
       - file: doc/resources
       - file: doc/study_advice
-    - file: doc/schedule
+    - file: setup/index
+      sections:
+      - file: setup/command_line
+      - file: setup/installation_mac
+      - file: setup/installation_windows    
     - file: about
-
-#    - file: setup/index
-#      sections:
-#      - file: setup/command_line
-#      - file: setup/installation_mac
-#      - file: setup/installation_windows
