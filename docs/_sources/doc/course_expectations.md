@@ -13,9 +13,6 @@ from your original quiz, make sure it runs correctly, and show me.
 You will also have at least one larger coding project, which you will
 present at STEM + Arts Galleries and/or the Celebration of Innovation.
 
-Your grade will be determined by your assignments, quizzes, and
-project(s) (in roughly equal proportions).
-
 
 ## Weekly schedule
 
@@ -55,4 +52,42 @@ Once we get into the semester, a typical week will look like:
   classmates!  Talking about problems and explaining solutions is a
   great way to solidify your own knowledge.  We're all here to learn
   together.
+
+## Usage of Artificial Intelligence (AI)
+
+Recent advances in AI have resulted in great improvements in AI-based code
+generation.  Generated code may be correct, but also may have subtle bugs.
+Remember that your goal in this course is for __you__ to improve your coding
+skills.  
+
+### Coding Assignments
+
+The coding assignments are for you to practice your skills, and to practice
+solving problems.  Your goal is to be able to write a solution to a similar
+problem by hand without help.  Give yourself time to struggle with the
+solution, ask classmates, or ask me if you are stuck.  You are welcome to use
+AI-generated code to help you, but keep your goal in mind.
+
+### Quizzes
+
+You will write your quizzes by hand on paper.  No AI - real intelligence only.
+
+### Project(s)
+
+If you feel that AI will help your project, you are welcome to use it, subject
+to the following:
+
+- You must fully document any use of AI code generation in your project.  You
+  may not take credit for code that you did not write.
+
+- You are responsible for getting your program to run, including debugging all
+  issues.  Remember that debugging your own code is difficult enough; debugging
+  AI-generated code can be even more difficult.
+
+- Prefer open source, locally installed AI to 3rd party web services.
+  If you do use a 3rd party web service:
+    - Be sure not to submit any identifying information
+    - Abide by the service's license agreement
+    - Abide by Marlborough's Student Technology Responsible Use Policy
+
 

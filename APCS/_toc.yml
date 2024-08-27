@@ -7,11 +7,11 @@ chapters:
     - file: doc/schedule
     - file: doc/intro
       sections:
-      - file: doc/summer_assignment
       - file: doc/syllabus
       - file: doc/course_expectations
       - file: doc/resources
       - file: doc/study_advice
+      - file: doc/summer_assignment
     - file: setup/index
       sections:
       - file: setup/command_line
