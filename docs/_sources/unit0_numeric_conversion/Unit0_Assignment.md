@@ -13,7 +13,7 @@ convert to decimal RGB, and check your work.  Do the same in reverse.
 
 The Unit 0 Quiz will consist of 5 numeric conversions.
 
-Here are some exercises:
+## Exercises for class Tuesday
 
 0) Convert 1234 decimal to hexadecimal. &nbsp; [0x4D2]
 
@@ -35,7 +35,7 @@ Here are some exercises:
 
 9) Convert binary 11011010 to hex. &nbsp; [0xDA]
 
-Bonus) Convert 0x29A to decimal.  Remind me to tell you a story about
+Bonus. Convert 0x29A to decimal.  Remind me to tell you a story about
 this.
 
 
