@@ -11,23 +11,23 @@ those who understand binary, and those who don't
 ```
 
 
-### 1) Convert 0x5C to decimal.
+### 1) Convert 0x4C to decimal.
 
 \vspace{14ex}
 
-### 2) Convert 0xB7 to binary.
+### 2) Convert 0xC7 to binary.
 
 \vspace{14ex}
 
-### 3) Convert $157_{OCT}$ to decimal.
+### 3) Convert $137_{OCT}$ to decimal.
 
 \vspace{14ex}
 
-### 4) Convert $11010101_{BIN}$ to hexadecimal.
+### 4) Convert $10011101_{BIN}$ to hexadecimal.
 
 \vspace{14ex}
 
-### 5) Convert $1025_{DEC}$ to hexadecimal.
+### 5) Convert $300_{DEC}$ to hexadecimal.
 
 \vspace{14ex}
 
