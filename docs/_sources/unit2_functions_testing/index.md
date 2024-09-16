@@ -19,4 +19,8 @@
 
 [http://codingbat.com/java/Warmup-1](http://codingbat.com/java/Warmup-1)
 
+## Demo
+
+- <a href="../unit2_demo/Functions.java">Functions.java</a>
+- <a href="../unit2_demo/MonkeyTrouble.java">MonkeyTrouble.java</a>
 
