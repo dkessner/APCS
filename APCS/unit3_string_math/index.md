@@ -21,7 +21,7 @@ Topics:
 
 ## Demo
 
-- <a href="../unit3_demo/HelloString.java">HelloString.java</a>
+- <a href="../unit3_demo/HelloStrings.java">HelloStrings.java</a>
 - <a href="../unit3_demo/HelloMath.java">HelloMath.java</a>
 - <a href="../unit3_demo/HelloRandom.java">HelloRandom.java</a>
 
