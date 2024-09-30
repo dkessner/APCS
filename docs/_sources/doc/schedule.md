@@ -11,10 +11,10 @@
 |3   |Sep 9 |2|Unit 1 (Java Basics)|
 |4   |Sep 16|3|Unit 2 (Functions and Conditionals)|
 |5   |Sep 23|2|Unit 3 (String, Math, Random)|
-|6   |Sep 30|1|Unit 4 (Loops / Algorithms)|
-|7   |Oct 7 |2|Unit 5 (Classes & Objects)|
-|8   |Oct 14|2|Unit 6 (Processing libraries); Project planning|
-|9   |Oct 21|3|catch up|
+|6   |Sep 30|1|catch up|
+|7   |Oct 7 |2|Unit 4 (Loops / Algorithms)|
+|8   |Oct 14|2|Unit 5 (Classes & Objects)|
+|9   |Oct 21|3|Unit 6 (Processing libraries); Project planning|
 |10  |Oct 28|2|Unit 7 (Arrays); Project work|
 |11  |Nov 4 |2|Unit 8 (ArrayList); Project work|
 |12  |Nov 11|2|Unit 9 (Array Algorithms); Project work|
