@@ -22,3 +22,10 @@ int sum(int n) {}
 // return the String obtained by killing every other letter
 String binimate(String s) {}
 ```
+
+## Demo
+
+- <a href="../unit4_demo/HelloLoops.java">HelloLoops.java</a>
+- <a href="../unit4_demo/HelloAlgorithms.java">HelloAlgorithms.java</a>
+- <a href="../unit4_demo/Binimate.java">Binimate.java</a>
+
