@@ -28,3 +28,14 @@ You will want to add this line to your shell initialization file, e.g.
 ```.bash_profile```, ```.bashrc```, or ```.zshrc``` depending on your
 setup.
 
+
+## Demo
+
+- <a href="../unit6_demo/Person.java">Person.java</a>
+- <a href="../unit6_demo/PersonTest.java">PersonTest.java</a>
+
+- <a href="../unit6_demo/HelloProcessing.java">HelloProcessing.java</a>
+
+- <a href="../unit6_demo/Ball.java">Ball.java</a>
+- <a href="../unit6_demo/Bounce.java">Bounce.java</a>
+
