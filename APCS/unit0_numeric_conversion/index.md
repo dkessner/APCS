@@ -17,34 +17,34 @@
 In decimal (base 10) we have:
 
 
+
 $$
-\begin{equation*}
 \begin{aligned}
      1234 &=  \underbrace{\fbox{1}}_{10^3}\underbrace{\fbox{2}}_{10^2}\underbrace{\fbox{3}}_{10^1}\underbrace{\fbox{4}}_{10^0} \\
      &= 1 \cdot 10^3 + 2 \cdot 10^2 + 3 \cdot 10^1 + 4 \cdot 10^0 \\
      &= 1000 + 200 + 3 + 4
 \end{aligned}
-\end{equation*}
 $$
 
 
 Hexadecimal is base 16, so we have:
 
-$$ 
-\begin{equation*}
+
+$$
 \begin{aligned}
      \text{0x10} &=  \underbrace{\fbox{1}}_{16^1}\underbrace{\fbox{0}}_{16^0} \\
       &= 1 \cdot 16^1 + 0 \cdot 16^0  \\
       &= 1 \cdot 16 + 0 \cdot 1  \\
       &= 16 \, \text{(decimal)}
 \end{aligned}
-\end{equation*} 
 $$
+
 
 
 
 $$
 \begin{array}{|c|c|}
+    \hline 
     \text{decimal} & \text{hexadecimal} \\
     \hline 
     0 & 0 \\
@@ -67,6 +67,6 @@ $$
     17 & 11 \\
     18 & 12 \\
     \cdots & \cdots \\
+    \hline 
 \end{array}
 $$
-
