@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Unit 4 - Loops &amp; Algorithms &#8212; APCS &lt;br/&gt; AP Computer Science &lt;br/&gt; 2024-25 &lt;br/&gt; Dr. Kessner</title>
+    <title>Unit 8 Assignment &#8212; APCS &lt;br/&gt; AP Computer Science &lt;br/&gt; 2024-25 &lt;br/&gt; Dr. Kessner</title>
   
   
   
@@ -58,12 +58,12 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'unit4_loops/index';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'unit8_arraylist/Unit8_Assignment';</script>
     <link rel="author" title="About these documents" href="../about.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Unit 4 Assignment" href="Unit4_Assignment.html" />
-    <link rel="prev" title="Unit 3 Assignment" href="../unit3_string_math/Unit3_Assignment.html" />
+    <link rel="next" title="About" href="../about.html" />
+    <link rel="prev" title="Unit 8 - ArrayList" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -211,8 +211,8 @@
 <li class="toctree-l2"><a class="reference internal" href="../unit3_string_math/Unit3_Assignment.html">Unit 3 Assignment</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Unit 4 - Loops &amp; Algorithms</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="Unit4_Assignment.html">Unit 4 Assignment</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../unit4_loops/index.html">Unit 4 - Loops &amp; Algorithms</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../unit4_loops/Unit4_Assignment.html">Unit 4 Assignment</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../unit5_classes/index.html">Unit 5 - Classes and objects</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -227,8 +227,8 @@
 <li class="toctree-l2"><a class="reference internal" href="../unit7_arrays/Unit7_Assignment.html">Unit 7 Assignment</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../unit8_arraylist/index.html">Unit 8 - ArrayList</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="../unit8_arraylist/Unit8_Assignment.html">Unit 8 Assignment</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="index.html">Unit 8 - ArrayList</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Unit 8 Assignment</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1"><a class="reference internal" href="../about.html">About</a></li>
@@ -303,7 +303,7 @@
       
       
       
-      <li><a href="https://github.com/dkessner/APCS/issues/new?title=Issue%20on%20page%20%2Funit4_loops/index.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/dkessner/APCS/issues/new?title=Issue%20on%20page%20%2Funit8_arraylist/Unit8_Assignment.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -333,7 +333,7 @@
       
       
       
-      <li><a href="../_sources/unit4_loops/index.md" target="_blank"
+      <li><a href="../_sources/unit8_arraylist/Unit8_Assignment.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -417,7 +417,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Unit 4 - Loops & Algorithms</h1>
+    <h1>Unit 8 Assignment</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -427,10 +427,13 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#topics">Topics</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#examples">Examples</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#demo">Demo</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#extra-practice">Extra practice</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reading">Reading</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code">Code</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#count-lucky">Count lucky</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sum-of-squares">Sum of squares</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#total-z-name-length">Total Z name length</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -442,79 +445,49 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="unit-4-loops-algorithms">
-<h1>Unit 4 - Loops &amp; Algorithms<a class="headerlink" href="#unit-4-loops-algorithms" title="Link to this heading">#</a></h1>
-<section id="topics">
-<h2>Topics<a class="headerlink" href="#topics" title="Link to this heading">#</a></h2>
+  <section class="tex2jax_ignore mathjax_ignore" id="unit-8-assignment">
+<h1>Unit 8 Assignment<a class="headerlink" href="#unit-8-assignment" title="Link to this heading">#</a></h1>
+<section id="reading">
+<h2>Reading<a class="headerlink" href="#reading" title="Link to this heading">#</a></h2>
 <ul class="simple">
-<li><p>for</p></li>
-<li><p>while</p></li>
-<li><p>do while</p></li>
-<li><p>break, continue</p></li>
+<li><p>Eck Section 7.3 (ArrayList)
+<a class="reference external" href="http://math.hws.edu/javanotes/c7/s3.html">http://math.hws.edu/javanotes/c7/s3.html</a></p></li>
 </ul>
 </section>
-<section id="examples">
-<h2>Examples<a class="headerlink" href="#examples" title="Link to this heading">#</a></h2>
-<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="c1">// return index of first occurrence of E</span>
-<span class="kt">int</span><span class="w"> </span><span class="nf">findE</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">s</span><span class="p">)</span><span class="w"> </span><span class="p">{}</span>
-
-<span class="c1">// return the number of Es in the string</span>
-<span class="kt">int</span><span class="w"> </span><span class="nf">countE</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">s</span><span class="p">)</span><span class="w"> </span><span class="p">{}</span>
-
-<span class="c1">// return sum 1 + ... + n</span>
-<span class="kt">int</span><span class="w"> </span><span class="nf">sum</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">)</span><span class="w"> </span><span class="p">{}</span>
-
-<span class="c1">// return the String obtained by killing every other letter</span>
-<span class="n">String</span><span class="w"> </span><span class="nf">binimate</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">s</span><span class="p">)</span><span class="w"> </span><span class="p">{}</span>
+<section id="code">
+<h2>Code<a class="headerlink" href="#code" title="Link to this heading">#</a></h2>
+<p>Make sure to write full unit tests for these functions.  Write at least one of these
+functions using a standard for loop, and at least one with a for-each loop.</p>
+<section id="count-lucky">
+<h3>Count lucky<a class="headerlink" href="#count-lucky" title="Link to this heading">#</a></h3>
+<p>A number is lucky if it is a multiple of 7 or ends in 7.  Write a function that
+counts the number of lucky numbers in an ArrayList of integers.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">countLucky</span><span class="p">(</span><span class="n">ArrayList</span><span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">})</span> <span class="o">-&gt;</span> <span class="mi">0</span>
+<span class="n">countLucky</span><span class="p">(</span><span class="n">ArrayList</span><span class="p">{</span><span class="mi">7</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">17</span><span class="p">})</span> <span class="o">-&gt;</span> <span class="mi">2</span>    
+<span class="n">countLucky</span><span class="p">(</span><span class="n">ArrayList</span><span class="p">{</span><span class="mi">107</span><span class="p">,</span> <span class="mi">207</span><span class="p">})</span> <span class="o">-&gt;</span> <span class="mi">2</span>    
 </pre></div>
 </div>
 </section>
-<section id="demo">
-<h2>Demo<a class="headerlink" href="#demo" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p><a href="../unit4_demo/HelloLoops.java">HelloLoops.java</a></p></li>
-<li><p><a href="../unit4_demo/HelloAlgorithms.java">HelloAlgorithms.java</a></p></li>
-<li><p><a href="../unit4_demo/Binimate.java">Binimate.java</a></p></li>
-</ul>
-</section>
-<section id="extra-practice">
-<h2>Extra practice<a class="headerlink" href="#extra-practice" title="Link to this heading">#</a></h2>
-<ol class="arabic simple">
-<li><p>Write a function to interlace 2 strings:</p></li>
-</ol>
-<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">interlace</span><span class="p">(</span><span class="s">&quot;abc&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;123&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="s">&quot;a1b2c3&quot;</span>
-<span class="n">interlace</span><span class="p">(</span><span class="s">&quot;bed&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;ras&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="s">&quot;breads&quot;</span>
-</pre></div>
-</div>
-<ol class="arabic simple" start="2">
-<li><p>Write a function to find the position of the 2nd “a” in a string:</p></li>
-</ol>
-<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">find2nd</span><span class="p">(</span><span class="s">&quot;banana&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="mi">3</span>
-<span class="n">find2nd</span><span class="p">(</span><span class="s">&quot;happy birthday&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="mi">12</span>
-</pre></div>
-</div>
-<ol class="arabic simple" start="3">
-<li><p>Write a function to add a specified number of “na” strings to “ba”:</p></li>
-</ol>
-<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">addNa</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="s">&quot;ba&quot;</span>
-<span class="n">addNa</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="s">&quot;bana&quot;</span>
-<span class="n">addNa</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="s">&quot;banana&quot;</span>
-<span class="n">addNa</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="s">&quot;bananana&quot;</span>
-</pre></div>
-</div>
-<ol class="arabic simple" start="4">
-<li><p>Write a function to calculate the sum of powers of 2:</p></li>
-</ol>
-<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">sumPowers</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="mi">0</span>
-<span class="n">sumPowers</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="mi">0</span><span class="o">+</span><span class="mi">1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span>
-<span class="n">sumPowers</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="mi">0</span><span class="o">+</span><span class="mi">1</span><span class="o">+</span><span class="mi">2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">3</span>
-<span class="n">sumPowers</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="mi">0</span><span class="o">+</span><span class="mi">1</span><span class="o">+</span><span class="mi">2</span><span class="o">+</span><span class="mi">4</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">7</span>
-<span class="n">sumPowers</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="mi">0</span><span class="o">+</span><span class="mi">1</span><span class="o">+</span><span class="mi">2</span><span class="o">+</span><span class="mi">4</span><span class="o">+</span><span class="mi">8</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">15</span><span class="w"> </span>
+<section id="sum-of-squares">
+<h3>Sum of squares<a class="headerlink" href="#sum-of-squares" title="Link to this heading">#</a></h3>
+<p>Write a function that takes a single ArrayList of doubles as input, and returns the
+sum of squares of the values.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sumOfSquares</span><span class="p">(</span><span class="n">ArrayList</span><span class="p">{</span><span class="mi">0</span><span class="p">})</span> <span class="o">-&gt;</span> <span class="mi">0</span>
+<span class="n">sumOfSquares</span><span class="p">(</span><span class="n">ArrayList</span><span class="p">{</span><span class="mf">1.0</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">})</span> <span class="o">-&gt;</span> <span class="mf">14.0</span>
+<span class="n">sumOfSquares</span><span class="p">(</span><span class="n">ArrayList</span><span class="p">{</span><span class="mf">2.0</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">})</span> <span class="o">-&gt;</span> <span class="mf">12.0</span>
 </pre></div>
 </div>
 </section>
-<div class="toctree-wrapper compound">
+<section id="total-z-name-length">
+<h3>Total Z name length<a class="headerlink" href="#total-z-name-length" title="Link to this heading">#</a></h3>
+<p>Write a function that takes an ArrayList of strings as input, and returns
+the total length of the strings that start with “z” or “Z”.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">countZNames</span><span class="p">(</span><span class="n">ArrayList</span><span class="p">{</span><span class="s2">&quot;Dr. Kessner&quot;</span><span class="p">,</span> <span class="s2">&quot;Dr. Sands&quot;</span><span class="p">})</span> <span class="o">-&gt;</span> <span class="mi">0</span>
+<span class="n">countZNames</span><span class="p">(</span><span class="n">ArrayList</span><span class="p">{</span><span class="s2">&quot;Zorro&quot;</span><span class="p">,</span> <span class="s2">&quot;zero&quot;</span><span class="p">,</span> <span class="s2">&quot;zippy&quot;</span><span class="p">})</span> <span class="o">-&gt;</span> <span class="mi">14</span>
+</pre></div>
 </div>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -530,7 +503,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./unit4_loops"
+            path: "./unit8_arraylist"
         },
         predefinedOutput: true
     }
@@ -548,20 +521,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../unit3_string_math/Unit3_Assignment.html"
+       href="index.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Unit 3 Assignment</p>
+        <p class="prev-next-title">Unit 8 - ArrayList</p>
       </div>
     </a>
     <a class="right-next"
-       href="Unit4_Assignment.html"
+       href="../about.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Unit 4 Assignment</p>
+        <p class="prev-next-title">About</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -581,10 +554,13 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#topics">Topics</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#examples">Examples</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#demo">Demo</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#extra-practice">Extra practice</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reading">Reading</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code">Code</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#count-lucky">Count lucky</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sum-of-squares">Sum of squares</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#total-z-name-length">Total Z name length</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
