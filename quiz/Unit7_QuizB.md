@@ -8,44 +8,43 @@ Why did the programmer quit his job?
 Because he didn't get arrays.
 ```
 
-### 1.  Count Fizzy
+### 1.  Sum Buzzy
 
 Write a function that takes an array of integers as input and returns the
-number of Fizzy numbers, i.e. multiples of 3.
+sum of the Buzzy numbers, i.e. those numbers that are multiples of 5.
 
 ```
-countFizzy({1, 2, 3}) -> 1
-countFizzy({3, 6, 9}) -> 3
-countFizzy({0, 0, 0, 33, 99}) -> 5
+sumBuzzy({1, 2, 5}) -> 5
+sumBuzzy({5, 5, 5}) -> 15
+sumBuzzy({0, 5, 10, 6, 7, 8}) -> 15
 ```
 
 
 \vspace{3in}
 
 
-### 2. Cold days
+### 2. Expensive items
 
-Write a function that takes an array of temperatures (double precision) and returns 
-the number of temperatures below 32.0.
+Write a function that takes an array of prices (double precision) and returns 
+the number of prices above 100.0.
 
 
 ```
-countColdDays({80, 70, 60}) -> 0
-countColdDays({20, 30, 60}) -> 2
-countColdDays({0, -30, 10}) -> 3
+countExpensive({20.50, 30.50, 60.50}) -> 0
+countExpensive({180.10, 70.00, 160.00}) -> 2
 ```
 \vspace{3in}
 
 
-### 3.  Total string length
+### 3.  Count D
 
-Write a function that takes an array of strings as input and returns the sum of
-the lengths of the strings.
+Write a function that takes an array of strings as input and returns the number of
+names that begin with "D" or "d".
 
 ```
-totalStringLength({"cat", "dog"}) -> 6
-totalStringLength({"duck", "goose"}) -> 9
-totalStringLength({"a", "a", "a"}) -> 3
+countD({"goose", "turkey", "goose"}) -> 0
+countD({"duck", "duck", "goose"}) -> 2
+countD({"Dr. Kessner", "Dr. Sands"}) -> 2
 ```
 
 

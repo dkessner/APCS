@@ -8,47 +8,44 @@ Why did the programmer quit his job?
 Because he didn't get arrays.
 ```
 
-### 1. Sum / Difference
+### 1.  Count Fizzy
 
-Write a function that takes an array of integers as input and calculates the
-sum of the numbers.  However, if a given number is odd, make it negative before
-adding to the sum.  (In other words, you're calculating the sum of the even numbers
-minus the sum of the odd numbers).
+Write a function that takes an array of integers as input and returns the
+number of Fizzy numbers, i.e. multiples of 3.
 
 ```
-sumDifference({2, 3, 4}) -> 2 + (-3) + 4 = 3
-sumDifference({5, 5, 5}) -> (-5) + (-5) + (-5) = -15
-sumDifference({4, 3, 2, 1}) -> 4 + (-3) + 2 + (-1) = 2
+countFizzy({1, 2, 3}) -> 1
+countFizzy({3, 6, 9}) -> 3
+countFizzy({0, 0, 0, 33, 99}) -> 5
 ```
 
 
 \vspace{3in}
 
 
-### 2. Liquid Water
+### 2. Cold days
 
-Write a function that takes an array of temperatures (double, Fahrenheit) of
-water samples, and returns the number of samples where the water is liquid 
-($32 \leq \text{temperature} \leq 212$).
+Write a function that takes an array of temperatures (double precision) and returns 
+the number of temperatures below 32.0.
 
 
 ```
-countLiquid({20.5, 30.5, 60.5}) -> 1
-countLiquid({180.1, 70.0, 160.0}) -> 3
+countColdDays({80, 70, 60}) -> 0
+countColdDays({20, 30, 60}) -> 2
+countColdDays({0, -30, 10}) -> 3
 ```
-
 \vspace{3in}
 
 
-### 3. Acronym
+### 3.  Total string length
 
-Write a function that takes an array of strings as input and returns a single string
-consisting of the first letters of the strings.
+Write a function that takes an array of strings as input and returns the sum of
+the lengths of the strings.
 
 ```
-acronym({"International", "Business", "Machines"}) -> "IBM"
-acronym({"Pre", "Calculus", "Honors", "Accelerated"}) -> "PCHA"
-acronym({"Three", "Letter", "Acronym"}) -> "TLA"
+totalStringLength({"cat", "dog"}) -> 6
+totalStringLength({"duck", "goose"}) -> 9
+totalStringLength({"a", "a", "a"}) -> 3
 ```
 
 
