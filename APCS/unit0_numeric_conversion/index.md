@@ -146,6 +146,11 @@ $$
  \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} 
 $$
 
+A _byte_ is 8 bits (and sometimes 4 bits is called a _nibble_).
+We have just seen that there are 256 possible bytes, corresponding
+to the decimal values $0 - 255$, which correspond to the
+binary values $00000000 - 11111111$, which correspond to the 
+2 digit hex values $\text{0x}00 - \text{0x}FF$.
 
 
 
