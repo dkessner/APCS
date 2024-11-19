@@ -21,7 +21,7 @@ $$
 \begin{aligned}
      1234_\text{DEC} &= \underset{10^3}{\fbox{ 1 }} \underset{10^2}{\fbox{ 2 }} \underset{10^1}{\fbox{ 3 }} \underset{10^0}{\fbox{ 4 }} \\
      &= 1 \cdot 10^3 + 2 \cdot 10^2 + 3 \cdot 10^1 + 4 \cdot 10^0 \\
-     &= 1000 + 200 + 3 + 4
+     &= 1000 + 200 + 30 + 4
 \end{aligned}
 $$
 
