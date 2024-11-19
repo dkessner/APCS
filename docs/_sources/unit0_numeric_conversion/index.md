@@ -78,9 +78,9 @@ $$
 \end{aligned}
 $$
 
-## Converting from Hex to Decimal
+## Converting from Decimal to Hex
 
-To convert from hex to decimal, pretend you are making change.
+To convert from decimal to hex, pretend you are making change.
 
 __Example__  To convert $99_\text{DEC}$ to hex, we first ask how many 16's it
 contains.  We compute $6 \cdot 16 = 96$, with remainder 3.  
@@ -259,6 +259,21 @@ $$
      \underset{4}{\fbox{100}} \\
      \\
      234\,_\text{OCT} &= 010 \, 011 \, 100 \, _\text{BIN}
+\end{aligned}
+$$
+
+To convert decimal to octal, pretend you are making change.
+
+__Example__  
+
+To convert $100_\text{DEC}$ to octal, we first ask how many 64's it
+contains (1, with remainder 36).  Then we ask how many 8's are in 36
+(4, with remainder 4).
+
+$$
+\begin{aligned}
+     100\,_\text{DEC} &= 1 \cdot 64 + 4 \cdot 8 + 4 \cdot 1 \\
+      &= 144\,_\text{OCT} \\
 \end{aligned}
 $$
 
