@@ -435,6 +435,7 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#decimal-and-hexadecimal">Decimal and Hexadecimal</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#converting-from-hex-to-decimal">Converting from Hex to Decimal</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#binary">Binary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#converting-between-hex-and-binary">Converting between Hex and Binary</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#original-notes">Original notes</a></li>
 </ul>
             </nav>
@@ -572,8 +573,7 @@ Then we ask how many 16’s are contained in 44 (2, with remainder 12).</p>
     11 &amp; B &amp; 1011 \\
     12 &amp; C &amp; 1100 \\
     13 &amp; D &amp; 1101 \\
-    14 &amp; E &amp; 1110 \\
-    15 &amp; F &amp; 1111 \\
+    14 &amp; E &amp; 1110 \\ 15 &amp; F &amp; 1111 \\
     \hline 
 \end{array}
 \end{split}\]</div>
@@ -589,11 +589,56 @@ Notice that with 4 bits, we have <span class="math notranslate nohighlight">\(2^
  \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} 
  \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} 
 \]</div>
-<p>A <em>byte</em> is 8 bits (and sometimes 4 bits is called a <em>nibble</em>).
-We have just seen that there are 256 possible bytes, corresponding
-to the decimal values <span class="math notranslate nohighlight">\(0 - 255\)</span>, which correspond to the
-binary values <span class="math notranslate nohighlight">\(00000000 - 11111111\)</span>, which correspond to the
-2 digit hex values <span class="math notranslate nohighlight">\(\text{0x}00 - \text{0x}FF\)</span>.</p>
+<p>A <em>byte</em> is 8 bits (and sometimes 4 bits is called a <em>nibble</em>).</p>
+<p>We seen that there are 256 possible bytes, corresponding to the decimal values
+<span class="math notranslate nohighlight">\(0 - 255\)</span>, which correspond to the binary values <span class="math notranslate nohighlight">\(00000000 - 11111111\)</span>, which
+correspond to the 2 digit hex values <span class="math notranslate nohighlight">\(\text{0x}00 - \text{0x}FF\)</span>.</p>
+</section>
+<section id="converting-between-hex-and-binary">
+<h2>Converting between Hex and Binary<a class="headerlink" href="#converting-between-hex-and-binary" title="Link to this heading">#</a></h2>
+<p>One hex digit corresponds to 4 bits, which makes it easy to convert
+between hex and binary.</p>
+<p><strong>Example</strong></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{aligned}
+     \fbox{ 7 }
+     \fbox{ C }
+     &amp;= 
+     \underset{7}{\fbox{0111}} 
+     \underset{C}{\fbox{1100}} \\
+     \\
+     \text{0x}7C &amp;= 0111 \, 1100 \, _\text{BIN}
+\end{aligned}
+\end{split}\]</div>
+<p><strong>Example</strong></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{aligned}
+     \fbox{ F }
+     \fbox{ F }
+     &amp;= 
+     \underset{F}{\fbox{1111}} 
+     \underset{F}{\fbox{1111}} \\
+     \\
+     \text{0x}FF &amp;= 1111 \, 1111 \, _\text{BIN}
+\end{aligned}
+\end{split}\]</div>
+<p><strong>Example</strong></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{aligned}
+     \fbox{ 2 }
+     \fbox{ 9 }
+     \fbox{ A }
+     &amp;= 
+     \underset{2}{\fbox{0010}} 
+     \underset{9}{\fbox{1001}} 
+     \underset{A}{\fbox{1010}} \\
+     \\
+     \text{0x}29A &amp;= 0010 \, 1001 \, 1010 \, _\text{BIN}
+\end{aligned}
+\end{split}\]</div>
 </section>
 <section id="original-notes">
 <h2>Original notes<a class="headerlink" href="#original-notes" title="Link to this heading">#</a></h2>
@@ -673,6 +718,7 @@ binary values <span class="math notranslate nohighlight">\(00000000 - 11111111\)
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#decimal-and-hexadecimal">Decimal and Hexadecimal</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#converting-from-hex-to-decimal">Converting from Hex to Decimal</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#binary">Binary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#converting-between-hex-and-binary">Converting between Hex and Binary</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#original-notes">Original notes</a></li>
 </ul>
   </nav></div>

@@ -126,8 +126,7 @@ $$
     11 & B & 1011 \\
     12 & C & 1100 \\
     13 & D & 1101 \\
-    14 & E & 1110 \\
-    15 & F & 1111 \\
+    14 & E & 1110 \\ 15 & F & 1111 \\
     \hline 
 \end{array}
 $$
@@ -147,10 +146,60 @@ $$
 $$
 
 A _byte_ is 8 bits (and sometimes 4 bits is called a _nibble_).
-We have just seen that there are 256 possible bytes, corresponding
-to the decimal values $0 - 255$, which correspond to the
-binary values $00000000 - 11111111$, which correspond to the 
-2 digit hex values $\text{0x}00 - \text{0x}FF$.
+
+We seen that there are 256 possible bytes, corresponding to the decimal values
+$0 - 255$, which correspond to the binary values $00000000 - 11111111$, which
+correspond to the 2 digit hex values $\text{0x}00 - \text{0x}FF$.
+
+
+## Converting between Hex and Binary
+
+One hex digit corresponds to 4 bits, which makes it easy to convert
+between hex and binary.
+
+__Example__
+
+$$
+\begin{aligned}
+     \fbox{ 7 }
+     \fbox{ C }
+     &= 
+     \underset{7}{\fbox{0111}} 
+     \underset{C}{\fbox{1100}} \\
+     \\
+     \text{0x}7C &= 0111 \, 1100 \, _\text{BIN}
+\end{aligned}
+$$
+
+__Example__
+
+$$
+\begin{aligned}
+     \fbox{ F }
+     \fbox{ F }
+     &= 
+     \underset{F}{\fbox{1111}} 
+     \underset{F}{\fbox{1111}} \\
+     \\
+     \text{0x}FF &= 1111 \, 1111 \, _\text{BIN}
+\end{aligned}
+$$
+
+__Example__
+
+$$
+\begin{aligned}
+     \fbox{ 2 }
+     \fbox{ 9 }
+     \fbox{ A }
+     &= 
+     \underset{2}{\fbox{0010}} 
+     \underset{9}{\fbox{1001}} 
+     \underset{A}{\fbox{1010}} \\
+     \\
+     \text{0x}29A &= 0010 \, 1001 \, 1010 \, _\text{BIN}
+\end{aligned}
+$$
 
 
 
