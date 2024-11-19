@@ -7,12 +7,7 @@
 * hexadecimal
 * octal
 
-![](0.jpg)
-![](1.jpg)
-![](2.jpg)
-
-
-## Notes (exploratory)
+## Decimal and Hexadecimal
 
 Decimal is base 10.  The digit positions correspond to powers of 10.
 
@@ -83,5 +78,36 @@ $$
       &= 666_\text{DEC}
 \end{aligned}
 $$
+
+## Converting from Hex to Decimal
+
+To convert from hex to decimal, pretend you are making change.
+
+__Example__  To convert $99_\text{DEC}$ to hex, we first ask how many 16's it
+contains.  We compute $6 \cdot 16 = 96$, with remainder 3.  
+
+$$
+\begin{aligned}
+     99_\text{DEC} &= 6 \cdot 16 + 3 \\
+      &= \text{0x}63 \\
+\end{aligned}
+$$
+
+__Example__  To convert $300_\text{DEC}$ to hex, we
+first ask how many 256's it contains (one, with remainder 44).
+Then we ask how many 16's are contained in 44 (2, with remainder 12).
+
+$$
+\begin{aligned}
+     300_\text{DEC} &= 1 \cdot 256 + 2 \cdot 16 + 12 \\
+      &= \text{0x}12C \\
+\end{aligned}
+$$
+
+## Original notes
+
+![](0.jpg)
+![](1.jpg)
+![](2.jpg)
 
 
