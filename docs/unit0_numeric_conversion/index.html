@@ -436,6 +436,7 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#converting-from-hex-to-decimal">Converting from Hex to Decimal</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#binary">Binary</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#converting-between-hex-and-binary">Converting between Hex and Binary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#octal">Octal</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#original-notes">Original notes</a></li>
 </ul>
             </nav>
@@ -465,7 +466,7 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[\begin{split}
 \begin{aligned}
-     1234_\text{DEC} &amp;= \underset{10^3}{\fbox{ 1 }} \underset{10^2}{\fbox{ 2 }} \underset{10^1}{\fbox{ 3 }} \underset{10^0}{\fbox{ 4 }} \\
+     1234\,_\text{DEC} &amp;= \underset{10^3}{\fbox{ 1 }} \underset{10^2}{\fbox{ 2 }} \underset{10^1}{\fbox{ 3 }} \underset{10^0}{\fbox{ 4 }} \\
      &amp;= 1 \cdot 10^3 + 2 \cdot 10^2 + 3 \cdot 10^1 + 4 \cdot 10^0 \\
      &amp;= 1000 + 200 + 30 + 4
 \end{aligned}
@@ -505,7 +506,7 @@ with the prefix <code class="docutils literal notranslate"><span class="pre">0x<
      \text{0x10} &amp;=  \underset{16^1}{\fbox{ 1 }} \underset{16^0}{\fbox{ 0 }} \\
       &amp;= 1 \cdot 16^1 + 0 \cdot 16^0  \\
       &amp;= 1 \cdot 16 + 0 \cdot 1  \\
-      &amp;= 16_\text{DEC}
+      &amp;= 16\,_\text{DEC}
 \end{aligned}
 \end{split}\]</div>
 <div class="math notranslate nohighlight">
@@ -514,7 +515,7 @@ with the prefix <code class="docutils literal notranslate"><span class="pre">0x<
      \text{0xA2} &amp;=  \underset{16^1}{\fbox{ A }} \underset{16^0}{\fbox{ 2 }} \\
       &amp;= 10 \cdot 16^1 + 2 \cdot 16^0  \\
       &amp;= 10 \cdot 16 + 2 \cdot 1  \\
-      &amp;= 162_\text{DEC}
+      &amp;= 162\,_\text{DEC}
 \end{aligned}
 \end{split}\]</div>
 <div class="math notranslate nohighlight">
@@ -523,7 +524,7 @@ with the prefix <code class="docutils literal notranslate"><span class="pre">0x<
      \text{0x29A} &amp;=  \underset{16^2}{\fbox{ 2 }} \underset{16^1}{\fbox{ 9 }} \underset{16^0}{\fbox{ A }} \\
       &amp;= 2 \cdot 16^2 + 9 \cdot 16^1 + A \cdot 16^0  \\
       &amp;= 2 \cdot 256 + 9 \cdot 16 + 10 \cdot 1 \\
-      &amp;= 666_\text{DEC}
+      &amp;= 666\,_\text{DEC}
 \end{aligned}
 \end{split}\]</div>
 </section>
@@ -535,7 +536,7 @@ contains.  We compute <span class="math notranslate nohighlight">\(6 \cdot 16 = 
 <div class="math notranslate nohighlight">
 \[\begin{split}
 \begin{aligned}
-     99_\text{DEC} &amp;= 6 \cdot 16 + 3 \\
+     99\,_\text{DEC} &amp;= 6 \cdot 16 + 3 \\
       &amp;= \text{0x}63 \\
 \end{aligned}
 \end{split}\]</div>
@@ -545,7 +546,7 @@ Then we ask how many 16’s are contained in 44 (2, with remainder 12).</p>
 <div class="math notranslate nohighlight">
 \[\begin{split}
 \begin{aligned}
-     300_\text{DEC} &amp;= 1 \cdot 256 + 2 \cdot 16 + 12 \\
+     300\,_\text{DEC} &amp;= 1 \cdot 256 + 2 \cdot 16 + 12 \\
       &amp;= \text{0x}12C \\
 \end{aligned}
 \end{split}\]</div>
@@ -577,8 +578,8 @@ Then we ask how many 16’s are contained in 44 (2, with remainder 12).</p>
     \hline 
 \end{array}
 \end{split}\]</div>
-<p>A binary digit is called a <em>bit</em>.<br />
-Notice that with 4 bits, we have <span class="math notranslate nohighlight">\(2^4 = 16\)</span> possibilities:</p>
+<p>A binary digit is called a <em>bit</em>.</p>
+<p>Notice that with 4 bits, we have <span class="math notranslate nohighlight">\(2^4 = 16\)</span> possibilities:</p>
 <div class="math notranslate nohighlight">
 \[
  \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} 
@@ -637,6 +638,62 @@ between hex and binary.</p>
      \underset{A}{\fbox{1010}} \\
      \\
      \text{0x}29A &amp;= 0010 \, 1001 \, 1010 \, _\text{BIN}
+\end{aligned}
+\end{split}\]</div>
+</section>
+<section id="octal">
+<h2>Octal<a class="headerlink" href="#octal" title="Link to this heading">#</a></h2>
+<p>Octal is base 8, and we use the eight numeric symbols 0-7.</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{array}{|c|c|r|r|}
+    \hline 
+    \text{decimal} &amp; \text{hexadecimal} &amp; \text{binary} &amp; \text{octal} \\
+    \hline 
+    0 &amp; 0 &amp; 0 &amp; 0 \\
+    1 &amp; 1 &amp; 1 &amp; 1 \\
+    2 &amp; 2 &amp; 10 &amp; 2 \\
+    3 &amp; 3 &amp; 11 &amp; 3 \\
+    4 &amp; 4 &amp; 100 &amp; 4 \\
+    5 &amp; 5 &amp; 101 &amp; 5 \\
+    6 &amp; 6 &amp; 110 &amp; 6 \\
+    7 &amp; 7 &amp; 111 &amp; 7 \\
+    8 &amp; 8 &amp; 1000 &amp; 10 \\
+    9 &amp; 9 &amp; 1001 &amp; 11 \\
+    10 &amp; A &amp; 1010 &amp; 12 \\
+    11 &amp; B &amp; 1011 &amp; 13 \\
+    12 &amp; C &amp; 1100 &amp; 14 \\
+    13 &amp; D &amp; 1101 &amp; 15 \\
+    14 &amp; E &amp; 1110 &amp; 16 \\ 
+    15 &amp; F &amp; 1111 &amp; 17 \\
+    \hline 
+\end{array}
+\end{split}\]</div>
+<p><strong>Example</strong></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{aligned}
+     \text{234}\,_\text{OCT} &amp;=  \underset{8^2}{\fbox{ 2 }} \underset{8^1}{\fbox{ 3 }} \underset{8^0}{\fbox{ 4 }} \\
+      &amp;= 2 \cdot 8^2 + 3 \cdot 8^1 + 4 \cdot 8^0  \\
+      &amp;= 2 \cdot 64 + 3 \cdot 8 + 4 \cdot 1 \\
+      &amp;= 156 \, _\text{DEC}
+\end{aligned}
+\end{split}\]</div>
+<p>One octal digit corresponds to 3 bits (<span class="math notranslate nohighlight">\(2^3 = 8\)</span>), so conversions
+between octal and binary are also straightforward.</p>
+<p><strong>Example</strong></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{aligned}
+     \fbox{ 2 }
+     \fbox{ 3 }
+     \fbox{ 4 }
+     &amp;= 
+     \underset{2}{\fbox{010}} 
+     \underset{3}{\fbox{011}} 
+     \underset{4}{\fbox{100}} \\
+     \\
+     234\,_\text{OCT} &amp;= 010 \, 011 \, 100 \, _\text{BIN}
 \end{aligned}
 \end{split}\]</div>
 </section>
@@ -719,6 +776,7 @@ between hex and binary.</p>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#converting-from-hex-to-decimal">Converting from Hex to Decimal</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#binary">Binary</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#converting-between-hex-and-binary">Converting between Hex and Binary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#octal">Octal</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#original-notes">Original notes</a></li>
 </ul>
   </nav></div>

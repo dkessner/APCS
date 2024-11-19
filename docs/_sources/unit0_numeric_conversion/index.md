@@ -13,7 +13,7 @@ Decimal is base 10.  The digit positions correspond to powers of 10.
 
 $$
 \begin{aligned}
-     1234_\text{DEC} &= \underset{10^3}{\fbox{ 1 }} \underset{10^2}{\fbox{ 2 }} \underset{10^1}{\fbox{ 3 }} \underset{10^0}{\fbox{ 4 }} \\
+     1234\,_\text{DEC} &= \underset{10^3}{\fbox{ 1 }} \underset{10^2}{\fbox{ 2 }} \underset{10^1}{\fbox{ 3 }} \underset{10^0}{\fbox{ 4 }} \\
      &= 1 \cdot 10^3 + 2 \cdot 10^2 + 3 \cdot 10^1 + 4 \cdot 10^0 \\
      &= 1000 + 200 + 30 + 4
 \end{aligned}
@@ -56,7 +56,7 @@ $$
      \text{0x10} &=  \underset{16^1}{\fbox{ 1 }} \underset{16^0}{\fbox{ 0 }} \\
       &= 1 \cdot 16^1 + 0 \cdot 16^0  \\
       &= 1 \cdot 16 + 0 \cdot 1  \\
-      &= 16_\text{DEC}
+      &= 16\,_\text{DEC}
 \end{aligned}
 $$
 
@@ -65,7 +65,7 @@ $$
      \text{0xA2} &=  \underset{16^1}{\fbox{ A }} \underset{16^0}{\fbox{ 2 }} \\
       &= 10 \cdot 16^1 + 2 \cdot 16^0  \\
       &= 10 \cdot 16 + 2 \cdot 1  \\
-      &= 162_\text{DEC}
+      &= 162\,_\text{DEC}
 \end{aligned}
 $$
 
@@ -74,7 +74,7 @@ $$
      \text{0x29A} &=  \underset{16^2}{\fbox{ 2 }} \underset{16^1}{\fbox{ 9 }} \underset{16^0}{\fbox{ A }} \\
       &= 2 \cdot 16^2 + 9 \cdot 16^1 + A \cdot 16^0  \\
       &= 2 \cdot 256 + 9 \cdot 16 + 10 \cdot 1 \\
-      &= 666_\text{DEC}
+      &= 666\,_\text{DEC}
 \end{aligned}
 $$
 
@@ -87,7 +87,7 @@ contains.  We compute $6 \cdot 16 = 96$, with remainder 3.
 
 $$
 \begin{aligned}
-     99_\text{DEC} &= 6 \cdot 16 + 3 \\
+     99\,_\text{DEC} &= 6 \cdot 16 + 3 \\
       &= \text{0x}63 \\
 \end{aligned}
 $$
@@ -98,7 +98,7 @@ Then we ask how many 16's are contained in 44 (2, with remainder 12).
 
 $$
 \begin{aligned}
-     300_\text{DEC} &= 1 \cdot 256 + 2 \cdot 16 + 12 \\
+     300\,_\text{DEC} &= 1 \cdot 256 + 2 \cdot 16 + 12 \\
       &= \text{0x}12C \\
 \end{aligned}
 $$
@@ -132,6 +132,7 @@ $$
 $$
 
 A binary digit is called a _bit_.  
+
 Notice that with 4 bits, we have $2^4 = 16$ possibilities:
 
 $$
@@ -198,6 +199,66 @@ $$
      \underset{A}{\fbox{1010}} \\
      \\
      \text{0x}29A &= 0010 \, 1001 \, 1010 \, _\text{BIN}
+\end{aligned}
+$$
+
+
+## Octal
+
+Octal is base 8, and we use the eight numeric symbols 0-7.
+
+$$
+\begin{array}{|c|c|r|r|}
+    \hline 
+    \text{decimal} & \text{hexadecimal} & \text{binary} & \text{octal} \\
+    \hline 
+    0 & 0 & 0 & 0 \\
+    1 & 1 & 1 & 1 \\
+    2 & 2 & 10 & 2 \\
+    3 & 3 & 11 & 3 \\
+    4 & 4 & 100 & 4 \\
+    5 & 5 & 101 & 5 \\
+    6 & 6 & 110 & 6 \\
+    7 & 7 & 111 & 7 \\
+    8 & 8 & 1000 & 10 \\
+    9 & 9 & 1001 & 11 \\
+    10 & A & 1010 & 12 \\
+    11 & B & 1011 & 13 \\
+    12 & C & 1100 & 14 \\
+    13 & D & 1101 & 15 \\
+    14 & E & 1110 & 16 \\ 
+    15 & F & 1111 & 17 \\
+    \hline 
+\end{array}
+$$
+
+__Example__
+
+$$
+\begin{aligned}
+     \text{234}\,_\text{OCT} &=  \underset{8^2}{\fbox{ 2 }} \underset{8^1}{\fbox{ 3 }} \underset{8^0}{\fbox{ 4 }} \\
+      &= 2 \cdot 8^2 + 3 \cdot 8^1 + 4 \cdot 8^0  \\
+      &= 2 \cdot 64 + 3 \cdot 8 + 4 \cdot 1 \\
+      &= 156 \, _\text{DEC}
+\end{aligned}
+$$
+
+One octal digit corresponds to 3 bits ($2^3 = 8$), so conversions
+between octal and binary are also straightforward.
+
+__Example__
+
+$$
+\begin{aligned}
+     \fbox{ 2 }
+     \fbox{ 3 }
+     \fbox{ 4 }
+     &= 
+     \underset{2}{\fbox{010}} 
+     \underset{3}{\fbox{011}} 
+     \underset{4}{\fbox{100}} \\
+     \\
+     234\,_\text{OCT} &= 010 \, 011 \, 100 \, _\text{BIN}
 \end{aligned}
 $$
 
