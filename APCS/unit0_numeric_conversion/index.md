@@ -12,7 +12,6 @@
 Decimal is base 10.  The digit positions correspond to powers of 10.
 
 $$
-
 \begin{aligned}
      1234_\text{DEC} &= \underset{10^3}{\fbox{ 1 }} \underset{10^2}{\fbox{ 2 }} \underset{10^1}{\fbox{ 3 }} \underset{10^0}{\fbox{ 4 }} \\
      &= 1 \cdot 10^3 + 2 \cdot 10^2 + 3 \cdot 10^1 + 4 \cdot 10^0 \\
@@ -132,6 +131,22 @@ $$
     \hline 
 \end{array}
 $$
+
+A binary digit is called a _bit_.  
+Notice that with 4 bits, we have $2^4 = 16$ possibilities:
+
+$$
+ \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} 
+$$
+
+And with 8 bits, we have $2^8 = 256$ possibilities:
+
+$$
+ \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} 
+ \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} \underset{2}{\fbox{ 0/1 }} 
+$$
+
+
 
 
 ## Original notes
