@@ -9,7 +9,7 @@
 
 
 
-demo_java := $(wildcard unit1_java_basics/*.java)
+demo_java := $(wildcard unit*/*.java)
 demo_md = $(patsubst %.java, %.md, $(demo_java))
 
 all: $(demo_md) html 
@@ -34,7 +34,7 @@ viewpdf:
 
 
 %.md : %.java
-	echo "# $<" >> $@
+	echo "# $(notdir $<)" >> $@
 	echo "\`\`\`java" >> $@
 	cat $< >> $@
 	echo "\`\`\`" >> $@
