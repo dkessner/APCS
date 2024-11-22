@@ -3,6 +3,8 @@
 
 format: jb-book
 root: welcome
+options:
+  numbered: 2
 chapters:
     - file: doc/schedule
     - file: doc/intro
@@ -22,6 +24,9 @@ chapters:
       - file: unit0_numeric_conversion/Unit0_Assignment
     - file: unit1_java_basics/index
       sections:
+      - file: unit1_java_basics/Basics
+      - file: unit1_java_basics/Loops
+      - file: unit1_java_basics/Sequences
       - file: unit1_java_basics/Unit1_Assignment
     - file: unit2_functions_testing/index
       sections:

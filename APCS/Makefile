@@ -1,6 +1,20 @@
 
 
 
+# automatic variables
+# https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html
+# $@ target
+# $< first prereq
+# $^ all prereqs
+
+
+
+demo_java := $(wildcard unit1_java_basics/*.java)
+demo_md = $(patsubst %.java, %.md, $(demo_java))
+
+all: $(demo_md) html 
+	@echo $(demo_md)
+
 html:
 	jb build .
 
@@ -18,6 +32,15 @@ pdf:
 viewpdf:
 	open _build/latex/book.pdf
 
+
+%.md : %.java
+	echo "# $<" >> $@
+	echo "\`\`\`java" >> $@
+	cat $< >> $@
+	echo "\`\`\`" >> $@
+
+
 clean:
 	jb clean .
+	rm $(demo_md)
 
