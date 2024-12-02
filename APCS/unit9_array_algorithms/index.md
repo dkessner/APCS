@@ -15,3 +15,7 @@
 - transform (e.g. strings -> lengths)
 - generate a sequence (e.g. FizzBuzz)
 
+## Demo Code
+
+- <a href="../unit9_demo/ArrayAlgorithms.java">ArrayAlgorithms.java</a>
+
