@@ -3,8 +3,6 @@
 
 format: jb-book
 root: welcome
-options:
-  numbered: 2
 chapters:
     - file: doc/schedule
     - file: doc/intro
