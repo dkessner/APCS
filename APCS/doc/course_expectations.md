@@ -74,11 +74,12 @@ You will write your quizzes by hand on paper.  No AI - real intelligence only.
 
 ### Project(s)
 
-If you feel that AI will help your project, you are welcome to use it, subject
-to the following:
+If you feel that AI will help your project, you are welcome to use it. 
 
-- You must fully document any use of AI code generation in your project.  You
-  may not take credit for code that you did not write.
+Any use of AI for assignments or projects is subject to the following:
+
+- You must fully document any use of AI code generation.  You may not take
+  credit for code that you did not write.
 
 - You are responsible for getting your program to run, including debugging all
   issues.  Remember that debugging your own code is difficult enough; debugging
