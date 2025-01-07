@@ -9,8 +9,3 @@
     - lists of objects
     - calculations on lists of objects
 
-## Demo
-
-- <a href="../unit10_demo/Animal.java">Animal.java</a>
-- <a href="../unit10_demo/AnimalParty.java">AnimalParty.java</a>
-
