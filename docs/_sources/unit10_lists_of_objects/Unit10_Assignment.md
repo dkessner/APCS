@@ -4,15 +4,18 @@
 
 It's time to get started on your coding project.
 
-Please create a new folder for your project in your APCS work folder.  Add one
-or two `.java` files with code to get a PApplet running on screen.  Also
-include a project management document (text file) in the same folder, or start
-a shared doc and share it with me.
+TODO this week:
+
+1) Create a new folder for your project in your APCS work folder.  
+
+2) Add one or two `.java` files with code to get a PApplet running on screen.  
+
+3) Start a project management document (see below)
 
 
-### Project Management Document
+### Project management document
 
-Your Project Management Document can be a simple text file in your project
+Your project management document can be a simple text file in your project
 folder, or a shared doc -- whatever works for you.  This document is for you to
 keep track of everything related to your project, so you can organize it
 however you like.  A project management document is useful whether you are
