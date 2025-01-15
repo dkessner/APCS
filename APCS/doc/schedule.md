@@ -30,17 +30,17 @@
 
 |Week|Date  |#|Topics|
 |----|------|-|------|
-|1   |Jan 6 |2|Unit 10 (Lists of Objects)|
-|2   |Jan 13|2|Unit 11 (Inheritance and Interfaces)|
-|3   |Jan 20|2|Demos: Transformations, Scene classes, Text IO|
-|4   |Jan 27|2|Unit 12 (2D arrays)|
-|5   |Feb 3 |2|Application: Image processing|
-|6   |Feb 10|2|Unit 13 (Interacting Classes)|
-|7   |Feb 17|2|Application: Particle generators|
-|8   |Feb 24|2|AP exam MC practice, catch up|
-|9   |Mar 3 |2|Unit 14 (Algorithm analysis)|
-|10  |Mar 10|3|Unit 15 (Recursion)|
-|11  |Mar 17|2|Project work, AP exam prep|
+|1   |Jan 6 |2|no school|
+|2   |Jan 13|2|Unit 10 (Lists of Objects)|
+|3   |Jan 20|2|Unit 11 (Inheritance and Interfaces)|
+|4   |Jan 27|2|Demos: Transformations, Scene classes, Text IO|
+|5   |Feb 3 |2|Unit 12 (2D arrays)|
+|6   |Feb 10|2|Application: Image processing|
+|7   |Feb 17|2|Unit 13 (Interacting Classes)|
+|8   |Feb 24|2|Application: Particle generators|
+|9   |Mar 3 |2|AP exam MC practice, catch up|
+|10  |Mar 10|3|Unit 14 (Algorithm analysis)|
+|11  |Mar 17|2|Unit 15 (Recursion)|
 |--  |Mar 24|-|_Spring Break_|
 |--  |Mar 31|-|_Spring Break_|
 |12  |Apr 7 |2|Project work, AP exam prep|
