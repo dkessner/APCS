@@ -61,12 +61,12 @@ public class Pixels extends PApplet
 
         fill(100);
         noStroke();
-        rect(0, 0, 200, 300);
+        rect(0, 0, 150, 225);
         fill(255);
         int x = 25;
         int y = 25;
         textSize(15);
-        text("<space>: change image", x, y+=25);
+        text("<space>: image", x, y+=25);
         text("r: red", x, y+=25);
         text("g: green", x, y+=25);
         text("b: blue", x, y+=25);
