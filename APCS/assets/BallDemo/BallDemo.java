@@ -32,7 +32,7 @@ public class BallDemo extends PApplet
     {
         background(0);
         ballGenerator.display();
-        ballGenerator2.display();
+        //ballGenerator2.display();
 
         ballGenerator2.setPosition(new PVector(mouseX, mouseY));
     }
