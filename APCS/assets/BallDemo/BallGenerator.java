@@ -29,7 +29,9 @@ public class BallGenerator
         for (Ball b : balls)
             b.display();
 
-        p.fill(128);
+        p.fill(255);
+        p.textSize(20);
+        p.textAlign(p.CENTER);
         p.text(balls.size(), position.x, position.y+30);
 
         killDeadBalls();
