@@ -16,3 +16,8 @@
     - merge sort
     - $o(n^2)$ vs. $o(n \log n)$
 
+## Class Notes
+
+![](1.jpg)
+![](2.jpg)
+
