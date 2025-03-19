@@ -16,6 +16,10 @@
     - merge sort
     - $o(n^2)$ vs. $o(n \log n)$
 
+## Links
+
+[Sorting animations](https://visualgo.net/en/sorting)
+
 ## Class Notes
 
 ![](1.jpg)
