@@ -37,9 +37,7 @@ html:
   use_repository_button: true
 
 
-
 sphinx:
   config:
     html_extra_path: ['assets']
-
-
+    mathjax_path: mathjax/tex-mml-chtml.js
