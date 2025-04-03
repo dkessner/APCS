@@ -15,9 +15,24 @@ Topics:
     - `length()`, `substring()`
 
 
+## Strings
+
+$$
+\underset{0}{\fbox{ H }}
+\underset{1}{\fbox{ e }}
+\underset{2}{\fbox{ l }}
+\underset{3}{\fbox{ l }}
+\underset{4}{\fbox{ o }}
+\underset{5}{\fbox{ , }}
+$$
+
+
+## Original notes
+
 ![](1.jpg)
 ![](2.jpg)
 ![](3.jpg)
+
 
 
 ## Demo
