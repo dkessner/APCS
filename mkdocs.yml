@@ -14,4 +14,4 @@ extra_css:
 nav:
   - Home: index.md
   - Class:
-    - Intro: class/intro.md
+    - class/intro.md
