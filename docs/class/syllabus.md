@@ -1,11 +1,11 @@
 # Syllabus
 
 __AP Computer Science A (APCS)__  
-__2024-25__  
-__Dr. Kessner__  
 __Marlborough School, Los Angeles__  
+__2025-26__  
 
-__Free periods: FI in D215__
+__Dr. Kessner__  
+__Free periods: CE in D215__
 
 ## Course Description
 
@@ -16,6 +16,25 @@ addition to building your coding skills through coding assignments, you
 will work on a larger software project using the Processing libraries.
 Along the way you will gain valuable experience testing and debugging
 your code.
+
+## Topics
+
+In this course we will dive deeply into object-oriented programming in the Java
+language.  We will explore many programming and computer science concepts:
+
+* data types and variables
+* functions
+* conditionals
+* loops and algorithms
+* logical and arithmetic operators
+* arrays, ArrayLists
+* computer graphics and animation
+* classes and objects
+* 2D arrays and image processing
+* data analysis 
+* algorithm analysis
+* recursion
+
 
 
 ## Learning Targets by Unit

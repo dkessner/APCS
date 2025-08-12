@@ -10,8 +10,13 @@ theme:
 extra_css:
   - style.css
 
-
 nav:
   - Home: index.md
+  - summer/summer_assignment.md
   - Class:
     - class/intro.md
+    - class/syllabus.md
+    - class/course_expectations.md
+    - class/study_advice.md
+    - class/resources.md
+    - class/schedule.md

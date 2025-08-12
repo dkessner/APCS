@@ -7,13 +7,13 @@ master the concepts we cover this year.
 
 ## Mistakes
 
-Niels Bohr, a physicist, gave a definition of an expert:
+Niels Bohr, a physicist, gave this definition of an expert:
 
 > An expert is a man who has made all the mistakes which can be made, in a
 > narrow field.
 
-Of course, we can do better - not every person is a man, and 
-no person can make _all_ the mistakes there are to make:
+Of course, not all experts are men, and no person can make _all_
+the mistakes there are to make, so here's my updated definition:
 
 > An expert is someone who has made more mistakes in a particular subject than
 > anyone else.
@@ -46,13 +46,14 @@ around, poking and prodding and changing things and observing the results.
   effort you put into your practice.  You won't get better if you don't
   practice.  And here, practice means "writing and testing and debugging code".
 
-- Learning to read and write code is like learning a foreign language.  You
-  must immerse yourself if possible.  A little practice every day will give you
-  better results than a long practice one day a week.
+- Learning to read and write code is also like learning a foreign
+  language.  You must immerse yourself if possible.  A little
+  practice every day will give you better results than a long
+  practice one day a week.
 
-- Give yourself space to make mistakes (and time to learn from them).
-  Remember: in order to become an expert, you must make all the mistakes that
-  everyone else has made, and more.
+- Give yourself space to make mistakes (and time to learn from
+  them).  Remember: in order to become an expert, you must make
+  all the mistakes that everyone else has made, and more.
 
 
 Dr. Kessner

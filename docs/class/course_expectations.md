@@ -2,21 +2,23 @@
 
 ## Assignments and Grading
 
-You will be given an assignment every week.  The assignment will
-include readings and short coding tasks.
+You will be given a coding assignment every week.
 
-Each assignment has an associated quiz.  You can retake any quiz as
-many times as you like (subject to the 70%/30% retake weighting).
-However, in order to retake a quiz, you must first write up the code
-from your original quiz, make sure it runs correctly, and show me.
+Each coding assignment has an associated quiz.  You can retake any
+quiz as many times as you like (subject to the 70%/30% retake
+weighting).  However, in order to retake a quiz, you must first
+write up the code from your original quiz, make sure it runs
+correctly, and get my approval to retake the quiz.
 
-You will also have at least one larger coding project, which you will
-present at STEM + Arts Galleries and/or the Celebration of Innovation.
+You will also have at least one larger coding project, which you
+will present at STEM + Arts Galleries and/or the Celebration of
+Innovation.  You will start on your project toward the end of the
+first semester.
 
 
 ## Weekly schedule
 
-Once we get into the semester, a typical week will look like:
+Once we get into the school year, a typical week will look like:
 
 * 1st class: Code demo for new unit, discussion and work period
 
@@ -53,40 +55,51 @@ Once we get into the semester, a typical week will look like:
   great way to solidify your own knowledge.  We're all here to learn
   together.
 
-## Usage of Artificial Intelligence (AI)
+## Use of Artificial Intelligence (AI)
 
-Recent advances in AI have resulted in great improvements in AI-based code
-generation.  Generated code may be correct, but also may have subtle bugs.
-Remember that your goal in this course is for __you__ to improve your coding
-skills.  
+Recent advances in AI have resulted in great improvements in
+AI-based code assistants.  AI-generated code may look correct, but
+also may have subtle bugs.  Remember that your goal in this course
+is for __you__ to improve your coding skills.
 
 ### Coding Assignments
 
-The coding assignments are for you to practice your skills, and to practice
-solving problems.  Your goal is to be able to write a solution to a similar
-problem by hand without help.  Give yourself time to struggle with the
-solution, ask classmates, or ask me if you are stuck.  You are welcome to use
-AI-generated code to help you, but keep your goal in mind.
+I expect that any code you submit for an assignment has been written
+by you, using your own brain and fingers.
+
+The coding assignments are for you to practice your skills, and to
+practice solving problems.  Your goal is to be able to solve a
+similar problem without help.  Ideally, you will give yourself time
+to struggle with the solution, ask classmates, or ask me if you are
+stuck.  
+
+On the other hand, AI code assistants can be helpful to help you get
+unstuck, including finding potential bugs in your code.
+
+You are allowed to use AI for help, but think of it as a crutch:
+it's a tool to help you keep moving until you are up and running on
+your own again.
+
 
 ### Quizzes
 
-You will write your quizzes by hand on paper.  No AI - real intelligence only.
+You will write your quizzes by hand on paper.  No AI. Real
+intelligence only.
 
 ### Project(s)
 
-If you feel that AI will help your project, you are welcome to use it. 
+If you feel that AI will help your project, you are welcome to use
+it, subject to the following:
 
-Any use of AI for assignments or projects is subject to the following:
+- You must fully document any use of AI code generation.  You may
+  not take credit for code that you did not write.
 
-- You must fully document any use of AI code generation.  You may not take
-  credit for code that you did not write.
+- You are responsible for getting your program to run, including
+  debugging all issues.  Remember that debugging your own code is
+  difficult enough.  Debugging AI-generated code can be even more
+  difficult.
 
-- You are responsible for getting your program to run, including debugging all
-  issues.  Remember that debugging your own code is difficult enough; debugging
-  AI-generated code can be even more difficult.
-
-- Prefer open source, locally installed AI to 3rd party web services.
-  If you do use a 3rd party web service:
+- If you use a 3rd party web service:
     - Be sure not to submit any identifying information
     - Abide by the service's license agreement
     - Abide by Marlborough's Student Technology Responsible Use Policy

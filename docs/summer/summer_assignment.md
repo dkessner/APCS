@@ -1,4 +1,4 @@
-﻿# Summer Assignment 2024
+﻿# Summer Assignment 2025
 
 ## Overview
 
@@ -60,7 +60,7 @@ examples, and especially the Object Oriented Programming examples
 
 <a href="../hello_objects/hello_objects.pde">hello_objects.pde</a>  
 a demo program that illustrates how to declare a class and how to create and
-use objects of that class (right-click to download file)
+use objects of that class
 
 <a href="../hello_objects_arraylist/hello_objects_arraylist.pde">hello_objects_arraylist.pde</a>  
 a demo program that illustrates the use of `ArrayList`, which allows you to

@@ -1,5 +1,7 @@
 # Schedule 2024-25
 
+__Note: this is last year's schedule.__
+
 ## Semester 1
 
 16 weeks, 34 class meetings

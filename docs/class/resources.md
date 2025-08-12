@@ -12,6 +12,6 @@ We will also be using __Barron's AP Study Guide__ for AP exam practice problems.
 
 ## Software
 
-You will need to install some software (e.g. the Java compiler and a text
+You will need to install some software (e.g. a Java compiler and a text
 editor).  All the software we will be using is free and open source.
 
