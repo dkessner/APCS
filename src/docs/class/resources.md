@@ -4,6 +4,7 @@
 
 We will be using various online resources for the class:
 
+* [Darren Kessner, Practical Coding](https://dkessner.github.io/csbook/)
 * [David J Eck, Introduction to Programming Using Java, Seventh Edition](http://math.hws.edu/javanotes/)
 * [Wikibooks Java Programming](https://en.wikibooks.org/wiki/Java_Programming)
 * [CodingBat code practice](https://codingbat.com/java)
