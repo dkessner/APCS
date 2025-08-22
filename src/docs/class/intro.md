@@ -1,7 +1,7 @@
 # Introduction
 
 We are going to learn how to program in Java, a programming language that has
-been in use by software developers for over 20 years. 
+been in use by software developers for over 30 years. 
 
 Object-oriented programming (OOP) is the dominant programming paradigm for
 creating maintainable large-scale software systems (everything from video games
