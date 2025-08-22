@@ -1,5 +1,13 @@
 # Course Expectations
 
+__AP Computer Science A (APCS)__  
+__2025-26__  
+__Dr. Kessner__  
+__Marlborough School, Los Angeles__  
+
+__Free periods: CE in D215__
+
+
 ## Assignments and Grading
 
 You will be given a coding assignment every week.

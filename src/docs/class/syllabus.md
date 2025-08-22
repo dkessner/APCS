@@ -1,12 +1,5 @@
 # Syllabus
 
-__AP Computer Science A (APCS)__  
-__Marlborough School, Los Angeles__  
-__2025-26__  
-
-__Dr. Kessner__  
-__Free periods: CE in D215__
-
 ## Course Description
 
 In this course we will dive deeply into object-oriented programming in
