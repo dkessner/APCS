@@ -1,57 +1,55 @@
-# Schedule 2024-25
-
-__Note: this is last year's schedule.__
+# Schedule 2025-26
 
 ## Semester 1
 
-16 weeks, 34 class meetings
+16 weeks, 33 class meetings
 
 |Week|Date  |#|Topics|
 |----|------|-|------|
-|1   |Aug 26|2|Introductions, Installation; Command line, dev environment setup, Summer projects|
-|2   |Sep 3 |2|Unit 0 (Command line, numeric conversion)|
-|3   |Sep 9 |2|Unit 1 (Java Basics)|
-|4   |Sep 16|3|Unit 2 (Functions and Conditionals)|
-|5   |Sep 23|2|Unit 3 (String, Math, Random)|
-|6   |Sep 30|1|catch up|
-|7   |Oct 7 |2|Unit 4 (Loops / Algorithms)|
-|8   |Oct 14|2|Unit 5 (Classes & Objects)|
-|9   |Oct 21|3|catch up|
-|10  |Oct 28|2|Unit 6 (Processing libraries); Project planning|
-|11  |Nov 4 |2|Unit 7 (Arrays); Project work|
-|12  |Nov 11|2|Unit 8 (ArrayList); Project work|
-|13  |Nov 18|2|catch up, Project work|
+|1   |Aug 25|3|Introductions, Installation; Command line, dev environment setup, Summer projects|
+|2   |Sep 1 |2|Unit 0 (Command line, numeric conversion)|
+|3   |Sep 8 |2|Unit 1 (Java Basics)|
+|4   |Sep 15|2|Unit 2 (Functions and Conditionals)|
+|5   |Sep 22|2|Unit 3 (String, Math, Random)|
+|6   |Sep 29|2|Unit 4 (Loops / Algorithms)|
+|7   |Oct 6 |2|catch up|
+|8   |Oct 13|2|Unit 5 (Classes & Objects)|
+|9   |Oct 20|2|Unit 6 (Processing libraries); Project planning|
+|10  |Oct 27|2|catch up|
+|11  |Nov 3 |2|Unit 7 (Arrays); Project work|
+|12  |Nov 10|2|Unit 8 (ArrayList); Project work|
+|13  |Nov 17|2|catch up, Project work|
 |--  |Nov 25|-|_Thanksgiving Break_|
-|14  |Dec 2 |3|Unit 9 (Array Algorithms); Project work|
-|15  |Dec 9 |2|Project work|
-|16  |Dec 16|2|Project work|
+|14  |Dec 1 |3|Unit 9 (Array Algorithms); Project work|
+|15  |Dec 8 |2|Project work|
+|16  |Dec 15|1|Project work|
 
 ## Semester 2 
 
-18 weeks, 39 class meetings
+19 weeks, 40 class meetings
 
 |Week|Date  |#|Topics|
 |----|------|-|------|
-|1   |Jan 6 |2|no school|
-|2   |Jan 13|2|Unit 10 (Lists of Objects)|
-|3   |Jan 20|2|Unit 11 (Inheritance and Interfaces)|
-|4   |Jan 27|2|Demos: Transformations, Scene classes, Text IO|
-|5   |Feb 3 |2|Unit 12 (2D arrays)|
-|6   |Feb 10|2|Application: Image processing|
-|7   |Feb 17|2|Unit 13 (Interacting Classes)|
-|8   |Feb 24|2|Application: Particle generators|
-|9   |Mar 3 |2|AP exam MC practice, catch up|
-|10  |Mar 10|3|Unit 14 (Algorithm analysis)|
-|11  |Mar 17|2|Unit 15 (Recursion)|
-|--  |Mar 24|-|_Spring Break_|
-|--  |Mar 31|-|_Spring Break_|
-|12  |Apr 7 |2|Project work, AP exam prep|
-|13  |Apr 14|2|Project work, AP exam prep|
-|14  |Apr 21|3|Project work, AP exam prep|
-|15  |Apr 28|2|AP exam prep, Celebration of Innovation Thu May 1, 5-9pm|
-|16  |May 5 |2|AP Exam Wed May 7, 12pm|
-|17  |May 12|2|TBD|
-|18  |May 19|3|TBD|
+|1   |Jan 5 |2|Unit 10 (Lists of Objects)|
+|2   |Jan 12|3|Unit 11 (Inheritance and Interfaces)|
+|3   |Jan 19|2|Demos: Transformations, Scene classes, Text IO|
+|4   |Jan 26|2|Unit 12 (2D arrays)|
+|5   |Feb 2 |2|Application: Image processing|
+|6   |Feb 9 |2|Unit 13 (Interacting Classes)|
+|7   |Feb 16|2|Application: Particle generators|
+|8   |Feb 23|2|AP exam MC practice, catch up|
+|9   |Mar 2 |2|Unit 14 (Algorithm analysis)|
+|10  |Mar 9 |2|Unit 15 (Recursion)|
+|11  |Mar 16|2|Project work, AP exam prep|
+|--  |Mar 23|2|Project work, AP exam prep|
+|--  |Mar 30|-|_Spring Break_|
+|12  |Apr 6 |-|_Spring Break_|
+|13  |Apr 13|3|Project work, AP exam prep|
+|14  |Apr 20|2|Project work, AP exam prep|
+|15  |Apr 27|2|__Celebration of Innovation Thu Apr 30, 5-9pm__|
+|16  |May 4 |2|AP exam prep|
+|17  |May 11|3|__AP Exam Friday, May 15, 2026, 12pm__|
+|18  |May 18|2|STEM activities|
 |19  |May 26|1|No more APCS :(|
 
 
