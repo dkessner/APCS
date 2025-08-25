@@ -13,7 +13,7 @@ You can install everything else with Homebrew, from the command line.
 
 ## Install Java
 
-Install the Java Development Kit (JDK)  
+Install the Java Development Kit (JDK)
 ([info](https://formulae.brew.sh/formula/openjdk)). 
 
 ```
@@ -26,6 +26,15 @@ report the Java version.
 ```
 javac -version
 java -version
+```
+
+## Install Geany 
+
+Install the Geany open source text editor 
+([info](https://www.geany.org/)).
+
+```
+brew install geany
 ```
 
 
