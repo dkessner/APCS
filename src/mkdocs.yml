@@ -20,5 +20,10 @@ nav:
     - class/study_advice.md
     - class/resources.md
     - class/schedule.md
+  - Setup:
+    - setup/installation_mac.md
+    - setup/installation_windows.md
+    - setup/command_line.md
+    - setup/classpath.md
   - about.md
 
