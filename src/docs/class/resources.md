@@ -16,3 +16,10 @@ We will also be using __Barron's AP Study Guide__ for AP exam practice problems.
 You will need to install some software (e.g. a Java compiler and a text
 editor).  All the software we will be using is free and open source.
 
+## Other Resources
+
+There are lots of other free online resources for learning Java.
+
+* [Codecademy: Learn Java](https://www.codecademy.com/learn/learn-java)
+
+
