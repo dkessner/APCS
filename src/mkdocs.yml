@@ -24,6 +24,6 @@ nav:
     - setup/installation_mac.md
     - setup/installation_windows.md
     - setup/command_line.md
-    - setup/classpath.md
+    - setup/github.md
   - about.md
 
