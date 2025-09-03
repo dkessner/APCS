@@ -12,17 +12,19 @@ extra_css:
 
 nav:
   - Home: index.md
-  - summer/summer_assignment.md
+  - class/schedule.md
   - Class:
     - class/intro.md
     - class/syllabus.md
     - class/course_expectations.md
     - class/study_advice.md
     - class/resources.md
-    - class/schedule.md
+    - summer/summer_assignment.md
   - Setup:
     - setup/installation_mac.md
     - setup/command_line.md
     - setup/github.md
+  - Assignments:
+    - assignments/assignment0.md
   - about.md
 
