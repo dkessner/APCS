@@ -22,7 +22,6 @@ nav:
     - class/schedule.md
   - Setup:
     - setup/installation_mac.md
-    - setup/installation_windows.md
     - setup/command_line.md
     - setup/github.md
   - about.md
