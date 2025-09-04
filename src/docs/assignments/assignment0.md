@@ -14,6 +14,8 @@ picker (Processing, Photoshop, Google).  Pick a color.  Look at
 the hex values, convert to decimal RGB, and check your work.  Do
 the same in reverse.
 
+[Reference -- Appendix A: Numeric Conversion](https://dkessner.github.io/csbook/java/appendix-a-numeric-conversion.html#appendix-a-numeric-conversion)
+
 [Exercises](https://dkessner.github.io/csbook/java/exercises-numeric-conversion.html#exercises-numeric-conversion)
 for more practice.
 
