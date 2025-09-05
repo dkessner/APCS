@@ -37,11 +37,15 @@ Install the Geany open source text editor
 brew install geany
 ```
 
-Create an alias for the command line.
+Create an alias for the command line.  
 
 ```
 alias geany=/Applications/Geany.app/Contents/MacOS/geany
 ```
+
+To set this alias every time you open a new Terminal window, add the alias line
+above to your `~/.zshrc` (or `~/.bashrc`) file.
+
 
 ## Create a GitHub account
 
