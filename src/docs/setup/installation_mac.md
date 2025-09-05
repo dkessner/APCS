@@ -37,6 +37,11 @@ Install the Geany open source text editor
 brew install geany
 ```
 
+Create an alias for the command line.
+
+```
+alias geany=/Applications/Geany.app/Contents/MacOS/geany
+```
 
 ## Create a GitHub account
 
