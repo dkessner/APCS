@@ -22,9 +22,9 @@ nav:
     - summer/summer_assignment.md
   - Setup:
     - setup/installation_mac.md
-    - setup/customization_mac.md
-    - setup/command_line.md
     - setup/github.md
+    - setup/command_line.md
+    - setup/customization_mac.md
   - Assignments:
     - assignments/assignment0.md
     - assignments/assignment1.md
