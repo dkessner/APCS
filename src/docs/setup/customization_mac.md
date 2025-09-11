@@ -1,10 +1,21 @@
 # Customization - Mac
 
+
+## `zsh` and the `~/.zshrc` file
+
+`zsh` is the default shell for Terminal windows on Mac OS.  You can configure
+your shell environment with the `~/.zshrc` file.  The commands in `~/.zshrc`
+are run every time you open a new Terminal window.
+
+If `~/.zshrc` does not exist, you can create a new file.
+
+On older Mac computers, the default shell is `bash` which uses the
+file `~/.bashrc` for configuration.
+
+
 ## Create a `geany` command
 
-You can create a shell function `geany` by adding these lines to your
-`~/.zshrc` file.  If the file `~/.zshrc` does not exist, create a new file.
-Older macs might use a `~/.bashrc` file instead.
+You can create a shell function `geany` by adding these lines to `~/.zshrc`.  
 
 ```
 geany() {
@@ -19,7 +30,6 @@ This function:
 - Passes all command line arguments (`$@`).
 - Launches the command in the background (`&`) so you still have control in the
   terminal.
-
 
 ## Customize your prompt
 

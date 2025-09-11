@@ -590,6 +590,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#zsh-and-the-zshrc-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      zsh and the ~/.zshrc file
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#create-a-geany-command" class="md-nav__link">
     <span class="md-ellipsis">
       Create a geany command
@@ -772,6 +781,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#zsh-and-the-zshrc-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      zsh and the ~/.zshrc file
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#create-a-geany-command" class="md-nav__link">
     <span class="md-ellipsis">
       Create a geany command
@@ -815,10 +833,15 @@
 
 
 <h1 id="customization-mac">Customization - Mac</h1>
+<h2 id="zsh-and-the-zshrc-file"><code>zsh</code> and the <code>~/.zshrc</code> file</h2>
+<p><code>zsh</code> is the default shell for Terminal windows on Mac OS.  You can configure
+your shell environment with the <code>~/.zshrc</code> file.  The commands in <code>~/.zshrc</code>
+are run every time you open a new Terminal window.</p>
+<p>If <code>~/.zshrc</code> does not exist, you can create a new file.</p>
+<p>On older Mac computers, the default shell is <code>bash</code> which uses the
+file <code>~/.bashrc</code> for configuration.</p>
 <h2 id="create-a-geany-command">Create a <code>geany</code> command</h2>
-<p>You can create a shell function <code>geany</code> by adding these lines to your
-<code>~/.zshrc</code> file.  If the file <code>~/.zshrc</code> does not exist, create a new file.
-Older macs might use a <code>~/.bashrc</code> file instead.</p>
+<p>You can create a shell function <code>geany</code> by adding these lines to <code>~/.zshrc</code>.  </p>
 <pre><code>geany() {
     /Applications/Geany.app/Contents/MacOS/geany $@ &amp;
 }
