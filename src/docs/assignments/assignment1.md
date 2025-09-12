@@ -1,4 +1,4 @@
-# Assignment 1
+# Assignment 1 (Hello, world!)
 
 Quiz 1 next week (and every quiz from now on) will be based on the Coding
 Exercises in the assignment.  You will not be quizzed on the readings.  

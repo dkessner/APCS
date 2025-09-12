@@ -1,4 +1,4 @@
-# Assignment 2
+# Assignment 2 (Functions and Testing)
 
 ## Coding Bat
 
