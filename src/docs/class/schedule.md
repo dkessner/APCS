@@ -9,7 +9,7 @@
 |1   |Aug 25|3|Introductions, Installation; Command line, dev environment setup, Summer projects|
 |2   |Sep 1 |2|Unit 0 (Command line, numeric conversion)|
 |3   |Sep 8 |2|Unit 1 (Java Basics)|
-|4   |Sep 15|2|Unit 2 (Functions and Conditionals)|
+|4   |Sep 15|2|Unit 2 (Functions and Testing)|
 |5   |Sep 22|2|Unit 3 (String, Math, Random)|
 |6   |Sep 29|2|Unit 4 (Loops / Algorithms)|
 |7   |Oct 6 |2|catch up|
