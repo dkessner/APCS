@@ -5,9 +5,9 @@ Exercises in the assignment.  You will not be quizzed on the readings.
 
 ## Coding Exercises
 
-[Reference: csbook Ch 0](https://dkessner.github.io/csbook/java/hello-world.html)
-
 [Coding Exercises Ch 0](https://dkessner.github.io/csbook/java/coding-exercises-hello.html)
+
+[Reference: csbook Ch 0](https://dkessner.github.io/csbook/java/hello-world.html)
 
 Quiz 1 will consist of similar coding exercises that you will write out by
 hand.  On the quiz you will need to write the body of a given `main` function

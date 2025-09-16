@@ -21,13 +21,12 @@ Example: MonkeyTrouble
 - [Java implementation + unit test](https://dkessner.github.io/csbook/java/monkeytrouble.html)
 
 
-
 ## Coding Exercises
-
-[Reference: csbook Ch 1](https://dkessner.github.io/csbook/java/functions-and-testing.html)
 
 [Coding Exercises Ch 1](https://dkessner.github.io/csbook/java/coding-exercises-functions-and-testing.html)
 (#3 challenge is optional).
+
+[Reference: csbook Ch 1](https://dkessner.github.io/csbook/java/functions-and-testing.html)
 
 The Unit 2 Quiz will consist of exercises similar to these exercises.
 You will be asked to write code for the specified function only (no
