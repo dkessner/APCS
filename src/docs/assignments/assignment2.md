@@ -29,8 +29,8 @@ Example: MonkeyTrouble
 [Reference: csbook Ch 1](https://dkessner.github.io/csbook/java/functions-and-testing.html)
 
 The Unit 2 Quiz will consist of exercises similar to these exercises.
-You will be asked to write code for the specified function only (no
-unit tests on the quizzes).
+You will be asked to write the specified function only (no
+testing function, unit tests, or `main()` on the quizzes).
 
 
 ## Reading
