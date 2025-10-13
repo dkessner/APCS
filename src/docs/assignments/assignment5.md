@@ -6,7 +6,7 @@
 
 [Reference: Classes and Objects](https://dkessner.github.io/csbook/java/classes-and-objects.html)
 
-Note: The Unit 5 Quiz will consist of writing a class (but shorter than these
+Note: Quiz #5 will consist of writing a class (but shorter than these
 exercises, and no test class).  You will be responsible for writing the full
 class declaration, including proper declaration of member variables and methods
 (including constructors).
