@@ -35,7 +35,7 @@
 |3   |Jan 19|2|Demos: Transformations, Scene classes, Text IO|
 |4   |Jan 26|2|Unit 12 (2D arrays)|
 |5   |Feb 2 |2|Application: Image processing|
-|6   |Feb 9 |2|Unit 13 (Interacting Classes)|
+|6   |Feb 9 |2|Unit 13 (Composition)|
 |7   |Feb 16|2|Application: Particle generators|
 |8   |Feb 23|2|AP exam MC practice, catch up|
 |9   |Mar 2 |2|Unit 14 (Algorithm analysis)|
