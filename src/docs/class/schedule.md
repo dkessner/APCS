@@ -41,9 +41,9 @@
 |9   |Mar 2 |2|Unit 14 (Algorithm analysis)|
 |10  |Mar 9 |2|Unit 15 (Recursion)|
 |11  |Mar 16|2|Project work, AP exam prep|
-|--  |Mar 23|2|Project work, AP exam prep|
+|12  |Mar 23|2|Project work, AP exam prep|
 |--  |Mar 30|-|_Spring Break_|
-|12  |Apr 6 |-|_Spring Break_|
+|--  |Apr 6 |-|_Spring Break_|
 |13  |Apr 13|3|Project work, AP exam prep|
 |14  |Apr 20|2|Project work, AP exam prep|
 |15  |Apr 27|2|__Celebration of Innovation Thu Apr 30, 5-9pm__|
