@@ -13,6 +13,7 @@ extra_css:
 nav:
   - Home: index.md
   - class/schedule.md
+  - class/ap_exam_prep.md
   - Class:
     - class/intro.md
     - class/syllabus.md
