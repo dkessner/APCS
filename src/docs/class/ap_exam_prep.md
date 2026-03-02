@@ -11,6 +11,8 @@ __12pm PST__
 
 [APCS past exam questions](https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam/past-exam-questions)  
 
+[APCS Java Quick Reference](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-a-java-quick-reference.pdf)
+
 ## Spring Break assignment  
 
 Free Response questions TBD
