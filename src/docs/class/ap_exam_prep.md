@@ -15,7 +15,10 @@ __12pm PST__
 
 ## Spring Break assignment  
 
-Free Response questions TBD
+[2025 APCS Exam Free Response questions](https://apcentral.collegeboard.org/media/pdf/ap25-frq-computer-science-a.pdf)  
+
+[2025 APCS Exam Free Response questions](https://apcentral.collegeboard.org/media/pdf/ap25-sg-computer-science-a.pdf)
+
 
 ## Useful links
 
