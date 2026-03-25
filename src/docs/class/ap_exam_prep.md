@@ -9,7 +9,7 @@ __12pm PST__
 
 [2025 APCS Exam Free Response questions](https://apcentral.collegeboard.org/media/pdf/ap25-frq-computer-science-a.pdf)  
 
-[2025 APCS Exam scoreing guidelines](https://apcentral.collegeboard.org/media/pdf/ap25-sg-computer-science-a.pdf)
+[2025 APCS Exam scoring guidelines](https://apcentral.collegeboard.org/media/pdf/ap25-sg-computer-science-a.pdf)
 
 
 ## AP Exam info
